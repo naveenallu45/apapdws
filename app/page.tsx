@@ -139,7 +139,10 @@ export default function Home() {
         <div className="container">
           <div className="logo">
             <img src="/logo.jpeg" alt="APAPDWS Logo" className="logo-img" />
-            <span className="logo-text">APAPDWS</span>
+            <div className="logo-text">
+              <span className="logo-line">Andhra Pradesh Agricultural & People</span>
+              <span className="logo-line">Development Welfare Society</span>
+            </div>
           </div>
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
             <li><a href="#home" onClick={() => setMobileMenuOpen(false)}>Home</a></li>
@@ -203,7 +206,7 @@ export default function Home() {
               <img src="/images/about_farmers.png" alt="Indian farmers in green fields" />
             </div>
             <div className="about-text reveal-up" style={{ animationDelay: "0.2s" }}>
-              <div className="section-title">About APAPDWS</div>
+              <div className="section-title">About Andhra Pradesh Agricultural & People Development Welfare Society</div>
               <p>
                 Andhra Pradesh Agricultural & People Development Welfare Society works tirelessly for farmers, rural communities, and weaker sections of society. Our focus lies in fostering agricultural innovation, promoting education, ensuring better healthcare, and fighting for social equality.
               </p>
