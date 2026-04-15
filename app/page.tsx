@@ -140,8 +140,9 @@ export default function Home() {
           <div className="logo">
             <img src="/logo.jpeg" alt="APAPDWS Logo" className="logo-img" />
             <div className="logo-text">
-              <span className="logo-line">Andhra Pradesh Agricultural & People</span>
-              <span className="logo-line">Development Welfare Society</span>
+              <span className="logo-line">Andhra Pradesh Agricultural &</span>
+              <span className="logo-line">People Development</span>
+              <span className="logo-line">Welfare Society</span>
             </div>
           </div>
           <ul className={`nav-links ${mobileMenuOpen ? 'active' : ''}`}>
